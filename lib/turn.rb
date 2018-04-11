@@ -36,11 +36,5 @@ def turn(board)
   
   puts "Please enter 1-9:" 
   
-  if valid_move?
-    move(board,input,current_player) 
-    display_board(board)
-  else
-    puts "Move is invalid, please enter a different 1-9 number"
-  end
- 
+
 end  
