@@ -40,6 +40,7 @@ index = input_to_index(input)
 
  if valid_move?(board, index)==true
     move(board, index, current_player = "X")
+    display_board(board)
   else puts "Please select a different move"
     turn(board)
   end  
